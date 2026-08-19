@@ -4,9 +4,9 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class Leetcode238 {
     static void main() {
-        Leetcode238 leetcode33 = new Leetcode238();
-        assertArrayEquals(new int[]{24, 12, 8, 6}, leetcode33.productExceptSelf(new int[]{1, 2, 3, 4}));
-        assertArrayEquals(new int[]{0, 0, 9, 0, 0}, leetcode33.productExceptSelf(new int[]{-1, 1, 0, -3, 3}));
+        Leetcode238 leetcode = new Leetcode238();
+        assertArrayEquals(new int[]{24, 12, 8, 6}, leetcode.productExceptSelf(new int[]{1, 2, 3, 4}));
+        assertArrayEquals(new int[]{0, 0, 9, 0, 0}, leetcode.productExceptSelf(new int[]{-1, 1, 0, -3, 3}));
     }
 
     public int[] productExceptSelf(int[] nums) {

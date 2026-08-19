@@ -4,9 +4,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Leetcode152 {
     static void main() {
-        Leetcode152 leetcode33 = new Leetcode152();
-        assertEquals(6, leetcode33.maxProduct(new int[]{2, 3, -2, 4}));
-        assertEquals(0, leetcode33.maxProduct(new int[]{-2, 0, -1}));
+        Leetcode152 leetcode = new Leetcode152();
+        assertEquals(6, leetcode.maxProduct(new int[]{2, 3, -2, 4}));
+        assertEquals(0, leetcode.maxProduct(new int[]{-2, 0, -1}));
     }
 
     public int maxProduct(int[] nums) {
